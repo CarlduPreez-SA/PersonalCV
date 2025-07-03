@@ -6,77 +6,112 @@
   <title>Carl du Preez - CV</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #eef2f5;
-      color: #333;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #eef2f5;
+        color: #333;
     }
+
     .header {
-      background: #2c3e50;
-      color: #fff;
-      text-align: center;
-      padding: 30px 20px;
+        background: #2c3e50;
+        color: #fff;
+        text-align: center;
+        padding: 30px 20px;
     }
+
     .header h1 {
-      margin-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 2em; /* Scales on mobile */
     }
+
     .header p a {
-      color: #ecf0f1;
-      margin: 0 10px;
-      text-decoration: none;
+        color: #ecf0f1;
+        margin: 0 10px;
+        text-decoration: none;
     }
+
     .header p a:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
+
     .container {
-      max-width: 900px;
-      margin: 30px auto;
-      background: #fff;
-      padding: 30px 40px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        max-width: 900px;
+        margin: 30px auto;
+        background: #fff;
+        padding: 30px 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
+
     section {
-      margin-bottom: 40px;
+        margin-bottom: 40px;
     }
+
     h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-      color: #2c3e50;
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        color: #2c3e50;
+        font-size: 1.5em;
     }
+
     .job {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
+
     .job-title {
-      font-weight: bold;
-      color: #34495e;
+        font-weight: bold;
+        color: #34495e;
     }
+
     .skills ul, .activities ul, .interests ul {
-      list-style-type: none;
-      padding: 0;
+        list-style-type: none;
+        padding: 0;
     }
+
     .skills li, .activities li, .interests li {
-      background: #ecf0f1;
-      margin: 5px 0;
-      padding: 8px 12px;
-      border-radius: 4px;
+        background: #ecf0f1;
+        margin: 5px 0;
+        padding: 8px 12px;
+        border-radius: 4px;
     }
+
     a {
-      color: #2980b9;
+        color: #2980b9;
     }
+
     .footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #777;
-      margin-top: 50px;
-      padding: 20px;
-    }
-    @media (max-width: 600px) {
-      .container {
+        text-align: center;
+        font-size: 0.9em;
+        color: #777;
+        margin-top: 50px;
         padding: 20px;
-      }
     }
+
+    /* 🔥 Mobile responsiveness */
+    @media (max-width: 768px) {
+        .container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .header {
+        padding: 20px 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .job-title {
+        font-size: 1em;
+    }
+  }
+
   </style>
 </head>
 <body>
